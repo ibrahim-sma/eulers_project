@@ -1,5 +1,4 @@
 # **[EULERS PROJECT](https://projecteuler.net/)**
-
 ## Solving Eulers Project problems with python programming:
 
 
