@@ -1,5 +1,5 @@
-# **[EULERS PROJECT](https://projecteuler.net/)**
-## Solving Eulers Project problems with python programming:
+# **[EULERS Project Solutions](https://projecteuler.net/)**
+## Solving Eulers Project problems with explanation steps using python programming:
 
 
 #### **[Problem 1 -  Multiples of 3 and 5](https://github.com/ibrahim-sma/eulers_project/blob/master/problem_1.py)**
