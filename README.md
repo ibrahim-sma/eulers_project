@@ -1,4 +1,4 @@
-# **[EULERS PROJECT Solutions](https://projecteuler.net/)**
+# **[EULERS Project Solutions](https://projecteuler.net/)**
 ## Solving Eulers Project problems with python programming:
 
 
