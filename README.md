@@ -26,3 +26,29 @@ The prime factors of 13195 are 5, 7, 13 and 29.
 
 A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 `Find the largest palindrome made from the product of two 3-digit numbers.`
+
+
+
+#### **[Problem 5 -  Smallest multiple](https://github.com/ibrahim-sma/eulers_project/blob/master/problem_5.py)**
+
+2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+
+`What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?`
+
+
+#### **[Problem 6 -  Sum square difference](https://github.com/ibrahim-sma/eulers_project/blob/master/problem_6.py)**
+
+The sum of the squares of the first ten natural numbers is, 12+22+...+102=385
+
+The square of the sum of the first ten natural numbers is, (1+2+...+10)2=552=3025
+
+Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025−385=2640.
+
+`Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.`
+
+
+#### **[Problem 7 -  Largest palindrome product](https://github.com/ibrahim-sma/eulers_project/blob/master/problem_7.py)**
+
+By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
+
+`What is the 10001st prime number?`
