@@ -40,7 +40,9 @@ while True:
 	else:
 		break
 
-print(f"The largest prime_factor of {input_number} is {largest_prime_factor}")
+if __name__ == "__main__":
+	print(f"The largest prime_factor of {input_number} is {largest_prime_factor}")
+
 
 # ***** Solution guidelines *****
 
