@@ -47,7 +47,7 @@ Hence the difference between the sum of the squares of the first ten natural num
 `Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.`
 
 
-#### **[Problem 7 -  Largest palindrome product](https://github.com/ibrahim-sma/eulers_project/blob/master/problem_7.py)**
+#### **[Problem 7 -  10001st prime](https://github.com/ibrahim-sma/eulers_project/blob/master/problem_7.py)**
 
 By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
 
