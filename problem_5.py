@@ -13,8 +13,9 @@
 
 # Solution: Starts from if __name__ == "__main__":
 
+
 # importing function to check if a number is prime or not
-from problem_3 import is_prime
+from pyeuler import is_prime
 
 def smallest_multiple(number):
 

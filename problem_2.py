@@ -33,7 +33,7 @@ print(f"There are {count} even-valued fibonacci terms that added to a {total}")
 # ***** Solution guidelines *****
 
 # 1) Assign initial total as 0.
-
+	
 # 2) Assigning the starting numbers for i & j as 1 & 2; i- previous number & j - current number
 
 # 3) Ensuring the value of current number (j) doesn't exceed 4 million with if j >= 4000000.

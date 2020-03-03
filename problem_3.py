@@ -11,14 +11,8 @@
 # What is the largest prime factor of the number 600851475143 ?
 
 
-def is_prime(num):
-	for i in range(2, int(num / 2) + 1):
-		if num % i == 0:
-			break
-	else:
-		return True
-
-	return False
+# importing function to check if a number is prime or not
+from pyeuler import is_prime
 
 current_prime_factor = 0  ## Temporary assignment
 
@@ -48,7 +42,7 @@ if __name__ == "__main__":
 
 # Additional Description:
 
-# Factors - for number 18 - 1, 2, 3, 6, 9, 18 are the factors
+# Factors - for number 18 - 1, 2, 3, 6, 9, 18 are the factors; which means 18 is evenly divisible by those.
 
 # Prime number - Any number that is divisible only by itself 
 # is called prime number. i.e. A prime number has factor as the number 

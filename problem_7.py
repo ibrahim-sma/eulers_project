@@ -6,36 +6,15 @@
 
 # Problem 7 -  10001st prime
 
-# The sum of the squares of the first ten natural numbers is, 12+22+...+102=385
+# By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
 
-# The square of the sum of the first ten natural numbers is, (1+2+...+10)2=552=3025
-
-# Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025−385=2640.
-
-# Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
-
+# What is the 10 001st prime number?
 
 
 # Solution: Starts from if __name__ == "__main__":
 
 # importing function to check if a number is prime or not
-# from problem_3 import is_prime
-
-import math
-
-def is_prime(num):
-    if num == 2:
-        return True
-    elif num == 1:
-        return False
-    else:
-        for i in range(3, int(math.sqrt(num)) + 1, 2):
-            if num % i == 0:
-                break
-        else:
-            return True
-
-        return False
+from pyeuler import is_prime
 
 def nth_prime(number):
 
@@ -44,19 +23,14 @@ def nth_prime(number):
     product = 1
 
     while prime_count < number:
-
-        if product % num == 0:
+        if not(is_prime(num)):
             num += 1
             continue
         else:
-            if not(is_prime(num)):
-                num += 1
-                continue
-            else:
-                product *= num
+            product *= num
 
-                num += 1
-                prime_count += 1
+            num += 1
+            prime_count += 1
 
     return num - 1
 

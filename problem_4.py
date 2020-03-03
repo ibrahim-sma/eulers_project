@@ -41,6 +41,6 @@ def palindrome_function(numbers):
 if __name__ == "__main__":
     
     # Creating a list of 3 digit numbers starting with 999 and end with 100
-    numbers = list(range(100,1000))[::-1]
+    numbers = list(range(100, 1000))[::-1]
 
     print(palindrome_function(numbers))
