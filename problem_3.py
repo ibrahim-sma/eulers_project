@@ -3,13 +3,16 @@
 # @email: ibrahim.sma1990@gmail.com
 # @LinkedIn: www.linkedin.com/in/ibrahim-sma
 
-
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Problem 3 -  Largest prime factor
 
 # The prime factors of 13195 are 5, 7, 13 and 29.
 
 # What is the largest prime factor of the number 600851475143 ?
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+
+# Solution:
 
 # importing function to check if a number is prime or not
 from pyeuler import is_prime

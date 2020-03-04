@@ -12,12 +12,13 @@
 # Find the sum of all the primes below two million.
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Note: This takes almost 5 seconds to complete, for faster results use approach
+# given in https://www.geeksforgeeks.org/python-program-for-sieve-of-eratosthenes/
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 # Solution: Starts from if __name__ == "__main__":
-
-# Note: This takes almost 5 seconds to complete, for faster results
-# refer https://www.geeksforgeeks.org/python-program-for-sieve-of-eratosthenes/
 
 # importing function to check if a number is prime or not
 from pyeuler import is_prime
@@ -36,7 +37,7 @@ def sum_of_primes(num_range):
             prime_sum += num  
     return prime_sum
 
+
 # Starts from here
 if __name__ == "__main__":
     print("the sum of all the primes below two million is :", sum_of_primes(2000000))
-

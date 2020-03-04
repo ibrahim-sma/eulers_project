@@ -4,6 +4,7 @@
 # @LinkedIn: www.linkedin.com/in/ibrahim-sma
 
 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Problem 6 -  Sum square difference
 
 # The sum of the squares of the first ten natural numbers is, 12+22+...+102=385
@@ -13,6 +14,7 @@
 # Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025−385=2640.
 
 # Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 # Solution: Starts from if __name__ == "__main__":
